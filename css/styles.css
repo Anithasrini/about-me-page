@@ -1,0 +1,133 @@
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  background: #F2F1ED;
+  width: 800px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+@font-face {
+  font-family: 'Allura Regular';
+  src: url('../font/Allura-Regular.otf');
+}
+@font-face {
+  font-family: 'Andika Basic';
+  src: url('../font/AndikaNewBasic-B.ttf');
+}
+
+.navbar h1 {
+  float: left;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Allura Regular';
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.navbar ul {
+  float: right;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+ li a:not(.about) {
+  font-family: 'Andika Basic';
+  font-variant: all-small-caps;
+  font-size: 1em;
+}
+
+.navbar li a.about {
+  font-family: 'Allura Regular';
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main {
+  overflow: auto;
+  clear: both;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info {
+  width: 550px;
+  float: left;
+}
+
+.portfolio {
+  width: 200px;
+  float: right;
+}
+.para-1 {
+  font-size: 1.1em;
+}
+.para-2 {
+  font-size: .9em;
+}
+.para-3 {
+  font-size: .8em;
+  padding: 0px 0 40px 0;
+}
+.important {
+  color: #BF8B7E;
+}
+
+.image {
+  margin-left: 25px;
+}
+
+.image img {
+  width: 250px;
+  height: 375px;
+  float: left;
+  margin: 0 auto;
+
+}
+
+.footer {
+  clear: both;
+  margin-top: .3px;
+  font-size: .9em;
+
+}
+
+.cursive {
+  font-family: 'Allura Regular';
+  font-size: 1.4em;
+}
+
+p.para-3:first-of-type {
+  margin-bottom: -20px;
+  font-size: 1.1em;
+}
+
+.footer p {
+  font-size: .9em;
+  padding: 6px 0px 0px 24px;
+}
+
+.glyphicon-chevron-down {
+  color: #BF8B7E;
+  font-size: .5em;
+  position: relative;
+  top: 18px;
+  left: -40px;
+}
